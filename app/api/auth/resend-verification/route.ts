@@ -62,6 +62,16 @@ export async function POST(request: NextRequest) {
       expiresAt,
     });
 
+    if (process.env.NODE_ENV !== "production" && !process.env.RESEND_API_KEY) {
+      return NextResponse.json(
+        {
+          devMode: true,
+          message: "Email delivery is not configured in local development.",
+        },
+        { status: 200 }
+      );
+    }
+
     // Send verification email
     const result = await sendVerificationEmail(currentUser.email, verificationToken);
 

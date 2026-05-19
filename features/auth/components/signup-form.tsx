@@ -55,6 +55,13 @@ export function SignupForm({ showGoogleAuth = true }: SignupFormProps) {
           method: 'POST',
           credentials: 'include',
         });
+        const verificationData = await verificationResponse.json().catch(() => null);
+
+        if (verificationData?.devMode) {
+          router.push(`/${locale}/check-email?devEmail=1`);
+          return;
+        }
+
         if (!verificationResponse.ok) {
           console.error('发送验证邮件失败: 接口返回非 200 状态');
         }

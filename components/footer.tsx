@@ -10,16 +10,24 @@ export const Footer = () => {
   
   const links = [
     {
-      name: t('navigation.main.pricing'),
-      href: "/pricing",
+      name: t('navigation.main.products'),
+      href: "/products",
+    },
+    {
+      name: t('navigation.main.companies'),
+      href: "/companies",
+    },
+    {
+      name: t('navigation.main.news'),
+      href: "/news",
     },
     {
       name: t('navigation.main.blog'),
       href: "/blog",
     },
     {
-      name: t('navigation.main.contact'),
-      href: "/contact",
+      name: t('navigation.main.inquiry'),
+      href: "/inquiry",
     },
   ];
   const legal = [

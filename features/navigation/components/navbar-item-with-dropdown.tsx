@@ -6,6 +6,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { ChevronDown, MessageSquare, Image, Video } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useTranslations } from "next-intl";
+import { LocaleLink } from "@/components/locale-link";
 
 interface SubItem {
   key: string;
@@ -109,7 +110,7 @@ export function NavBarItemWithDropdown({
                 const IconComponent = subItem.icon ? iconMap[subItem.icon as keyof typeof iconMap] : null;
 
                 return (
-                  <Link
+                  <LocaleLink
                     key={subItem.key}
                     href={subItem.href}
                     className="flex items-center gap-3 px-4 py-2.5 text-sm text-muted-foreground hover:bg-hover transition-colors"
@@ -119,7 +120,7 @@ export function NavBarItemWithDropdown({
                       <IconComponent className="w-4 h-4 text-muted-foreground" />
                     )}
                     <span>{t(subItem.key)}</span>
-                  </Link>
+                  </LocaleLink>
                 );
               })}
             </div>

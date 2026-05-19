@@ -2,7 +2,7 @@
 
 import { Mail, ArrowRight, RefreshCcw } from 'lucide-react';
 import Link from 'next/link';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useLocale, useTranslations } from 'next-intl';
 
 export default function CheckEmailPage() {
@@ -10,24 +10,45 @@ export default function CheckEmailPage() {
   const t = useTranslations('auth.checkEmail');
   const [isResending, setIsResending] = useState(false);
   const [resendMessage, setResendMessage] = useState('');
+  const [resendStatus, setResendStatus] = useState<'success' | 'error' | 'notice'>(
+    'notice'
+  );
+
+  useEffect(() => {
+    const searchParams = new URLSearchParams(window.location.search);
+
+    if (searchParams.get('devEmail') === '1') {
+      setResendStatus('notice');
+      setResendMessage(t('devEmailNotice'));
+    }
+  }, [t]);
 
   const handleResendEmail = async () => {
     try {
       setIsResending(true);
       setResendMessage('');
+      setResendStatus('notice');
       
       const response = await fetch('/api/auth/resend-verification', {
         method: 'POST',
         credentials: 'include',
       });
+      const data = await response.json().catch(() => null);
       
       if (response.ok) {
-        setResendMessage(t('resendSuccess'));
+        if (data?.devMode) {
+          setResendStatus('notice');
+          setResendMessage(t('devEmailNotice'));
+        } else {
+          setResendStatus('success');
+          setResendMessage(t('resendSuccess'));
+        }
       } else {
-        const data = await response.json();
-        setResendMessage(data.error || t('resendError'));
+        setResendStatus('error');
+        setResendMessage(data?.error || data?.message || t('resendError'));
       }
     } catch {
+      setResendStatus('error');
       setResendMessage(t('resendError'));
     } finally {
       setIsResending(false);
@@ -98,8 +119,10 @@ export default function CheckEmailPage() {
             {/* Resend Message */}
             {resendMessage && (
               <p className={`text-sm mb-4 ${
-                resendMessage.includes('successfully')
+                resendStatus === 'success'
                   ? 'text-green-600'
+                  : resendStatus === 'notice'
+                    ? 'text-amber-600'
                   : 'text-red-600'
               }`}>
                 {resendMessage}

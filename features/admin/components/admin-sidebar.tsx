@@ -7,7 +7,11 @@ import {
   Users,
   Home,
   ShoppingCart,
-  Database
+  Database,
+  ClipboardList,
+  Building2,
+  Boxes,
+  Newspaper,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
@@ -21,6 +25,26 @@ const adminNavItems = [
     title: "users",
     href: "/admin/users",
     icon: Users,
+  },
+  {
+    title: "products",
+    href: "/admin/products",
+    icon: Boxes,
+  },
+  {
+    title: "companies",
+    href: "/admin/companies",
+    icon: Building2,
+  },
+  {
+    title: "news",
+    href: "/admin/news",
+    icon: Newspaper,
+  },
+  {
+    title: "inquiries",
+    href: "/admin/inquiries",
+    icon: ClipboardList,
   },
   {
     title: "subscriptions",

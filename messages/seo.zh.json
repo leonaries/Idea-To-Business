@@ -1,7 +1,7 @@
 {
   "home": {
-    "title": "Sistine AI - 通过 Vibe Coding 将您的 AI SaaS 产品投入生产",
-    "description": "Sistine AI 是一个提供广泛 AI 工具和服务的平台,帮助您掌控业务。生成图像、文本以及启动业务所需的一切。",
+    "title": "具身智能综合服务平台 - 产品目录、企业库与需求对接",
+    "description": "结构化检索具身智能产品和企业,提交采购、合作或咨询需求,由平台协助对接合适厂商与解决方案。",
     "ogImage": "https://ai-saas-template-aceternity.vercel.app/banner.png"
   },
   "pricing": {

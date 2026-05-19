@@ -16,37 +16,24 @@ type NavigationKeyItem = {
 // These are the navigation keys for translation
 export const marketingNavigationKeys: NavigationKeyItem[] = [
   {
-    key: "demo",
-    href: "/demo",
-    subItems: [
-      {
-        key: "chat",
-        href: "/demo/chat",
-        icon: "MessageSquare",
-      },
-      {
-        key: "image",
-        href: "/demo/image",
-        icon: "Image",
-      },
-      {
-        key: "video",
-        href: "/demo/video",
-        icon: "Video",
-      },
-    ],
+    key: "products",
+    href: "/products",
   },
   {
-    key: "pricing",
-    href: "/pricing",
+    key: "companies",
+    href: "/companies",
+  },
+  {
+    key: "news",
+    href: "/news",
   },
   {
     key: "blog",
     href: "/blog",
   },
   {
-    key: "contact",
-    href: "/contact",
+    key: "inquiry",
+    href: "/inquiry",
   },
   {
     key: "docs",
