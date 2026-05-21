@@ -239,32 +239,17 @@ MIT License - see [LICENSE](./LICENSE) for details.
 - pnpm 10+
 - PostgreSQL 数据库
 
-#### 获取访问权限
-
-请在课程社区获取源码和访问方式：
-
-- https://scys.com/deepsea/2001/course
-
-拿到访问权限后，再按下面步骤初始化项目。
 
 #### 安装步骤
 
-1. **获取项目源码**
-
-如果你已经通过课程社区拿到源码压缩包，先解压并进入项目目录即可。
-
-如果你想通过 Git 获取源码：
-```bash
-git clone https://github.com/Idea-To-Business/embodied-starter-vibe-to-production.git
-cd embodied-starter-vibe-to-production
 ```
 
-2. **安装依赖**
+1. **安装依赖**
 ```bash
 pnpm install
 ```
 
-3. **设置环境变量**
+1. **设置环境变量**
 ```bash
 cp .env.example .env.local
 ```
