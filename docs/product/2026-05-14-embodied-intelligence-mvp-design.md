@@ -4,7 +4,7 @@
 
 ## 1. 背景
 
-原始需求文档希望基于 ShipAny 开发具身智能综合服务平台。当前实际可用底座是本仓库 `sistine-starter-vibe-to-production`，它已经提供 Next.js App Router、Better Auth、Drizzle/PostgreSQL、邮件订阅、后台权限、多语言、SEO 与基础后台框架。
+原始需求文档希望基于 ShipAny 开发具身智能综合服务平台。当前实际可用底座是本仓库 `embodied-starter-vibe-to-production`，它已经提供 Next.js App Router、Better Auth、Drizzle/PostgreSQL、邮件订阅、后台权限、多语言、SEO 与基础后台框架。
 
 本设计将需求中的 ShipAny 替换为当前模板，并聚焦第一阶段 MVP 主链路：
 

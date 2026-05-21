@@ -1,9 +1,9 @@
 {
   "common": {
     "brand": {
-      "name": "SISTINE",
-      "tagline": "Sistine AI & Sistine Labs",
-      "copyright": "Copyright © 2025 Sistine AI & Sistine Labs",
+      "name": "Embodied",
+      "tagline": "Embodied AI & Embodied AI Labs",
+      "copyright": "Copyright © 2025 Embodied AI & Embodied AI Labs",
       "allRightsReserved": "All rights reserved"
     },
     "actions": {
@@ -70,7 +70,7 @@
   "hero": {
     "badge": "⚡ The First Starter Built for Vibe Coding",
     "title": "Vibe Code Your AI SaaS to Production",
-    "description": "No coding skills? Perfect. Sistine + AI coding assistants = Your SaaS idea live in hours. Just describe what you want. Ship what users love.",
+    "description": "No coding skills? Perfect. Embodied AI + AI coding assistants = Your SaaS idea live in hours. Just describe what you want. Ship what users love.",
     "cta": {
       "primary": "View Docs",
       "secondary": "Get Code"
@@ -78,7 +78,7 @@
     "modal": {
       "eyebrow": "Code Access",
       "title": "Get the source code from our course community",
-      "description": "The full Sistine Starter codebase, update notes, and companion materials are distributed inside our course community.",
+      "description": "The full Embodied AI Starter codebase, update notes, and companion materials are distributed inside our course community.",
       "instruction": "If you're enrolled, open the course page below in a new tab to access the code, updates, and course resources.",
       "linkLabel": "Open the course community",
       "linkHint": "Course community: https://scys.com/deepsea/2001/course",
@@ -87,7 +87,7 @@
   },
   "features": {
     "title": "Everything You Need for Vibe Coding Success",
-    "subtitle": "Stop wasting time on boilerplate. Focus on describing your unique features while Sistine handles the foundation. Ship faster with AI.",
+    "subtitle": "Stop wasting time on boilerplate. Focus on describing your unique features while Embodied AI handles the foundation. Ship faster with AI.",
     "items": {
       "aiOptimized": {
         "title": "Built for AI-Assisted Development",
@@ -185,11 +185,11 @@
   },
   "testimonials": {
     "title": "Success Stories from Vibe Coders",
-    "subtitle": "Real developers and non-technical founders sharing their experience building AI SaaS products with Sistine and Vibe Coding.",
+    "subtitle": "Real developers and non-technical founders sharing their experience building AI SaaS products with Embodied AI and Vibe Coding.",
     "items": [
       {
         "name": "Alex Chen",
-        "quote": "I'm not a developer. I'm a marketer. But I shipped my AI SaaS in 3 days using Sistine + Cursor. Now making $5K MRR.",
+        "quote": "I'm not a developer. I'm a marketer. But I shipped my AI SaaS in 3 days using Embodied AI + Cursor. Now making $5K MRR.",
         "designation": "Marketing Manager turned Founder"
       },
       {
@@ -199,17 +199,17 @@
       },
       {
         "name": "Alice Johnson",
-        "quote": "From idea to $10K MRR in 2 months. All vibes, no code. Sistine made it possible to compete with funded startups.",
+        "quote": "From idea to $10K MRR in 2 months. All vibes, no code. Embodied AI made it possible to compete with funded startups.",
         "designation": "Serial Entrepreneur"
       },
       {
         "name": "Bob Smith",
-        "quote": "Built and launched 3 different AI SaaS products this quarter alone. Vibe Coding with Sistine is my secret weapon.",
+        "quote": "Built and launched 3 different AI SaaS products this quarter alone. Vibe Coding with Embodied AI is my secret weapon.",
         "designation": "Indie Hacker"
       },
       {
         "name": "Cathy Lee",
-        "quote": "I describe features in plain English to Claude Code. Sistine handles the rest. Shipping has never been this fast.",
+        "quote": "I describe features in plain English to Claude Code. Embodied AI handles the rest. Shipping has never been this fast.",
         "designation": "Product Manager"
       },
       {
@@ -304,7 +304,7 @@
   },
   "cta": {
     "title": "Ready to Ship Your AI SaaS?",
-    "description": "Join hundreds of developers who launched their SaaS products with Sistine and Vibe Coding.",
+    "description": "Join hundreds of developers who launched their SaaS products with Embodied AI and Vibe Coding.",
     "button": "Get Code"
   },
   "auth": {
@@ -391,7 +391,7 @@
   },
   "demo": {
     "badge": "Try Before You Buy",
-    "title": "Experience Sistine AI",
+    "title": "Experience Embodied AI",
     "description": "Test our powerful AI features without signing up. Get 3 free trials to explore what we can do.",
     "limitReached": "You've reached the demo limit. Sign up to continue using our AI tools with full features!",
     "signUpNow": "Sign Up Now",
@@ -812,7 +812,7 @@
     "title": "Dashboard",
     "welcome": "Welcome back",
     "welcomeBonus": {
-      "title": "🎉 Welcome to Sistine!",
+      "title": "🎉 Welcome to Embodied AI!",
       "message": "Congratulations on your successful registration! We've added 300 credits welcome bonus to your account.",
       "description": "Use these credits to try our AI chat, image generation, video generation, and more features.",
       "ctaButton": "Try Now",
@@ -1007,8 +1007,8 @@
     "subtitle": "We'd love to hear from you. Send us a message and we'll respond as soon as possible.",
     "description": "Please reach out to us and we will get back to you at the speed of light.",
     "testimonial": {
-      "title": "Sistine AI is used by thousands of users",
-      "description": "With lots of AI applications around, Sistine AI stands out with its state of the art AI capabilities."
+      "title": "Embodied AI is used by thousands of users",
+      "description": "With lots of AI applications around, Embodied AI stands out with its state of the art AI capabilities."
     },
     "form": {
       "nameLabel": "Full Name",

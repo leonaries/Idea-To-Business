@@ -1,9 +1,9 @@
 {
   "common": {
     "brand": {
-      "name": "SISTINE",
-      "tagline": "Sistine AI & Sistine Labs",
-      "copyright": "版权所有 © 2025 Sistine AI & Sistine Labs",
+      "name": "Embodied",
+      "tagline": "Embodied AI & Embodied AI Labs",
+      "copyright": "版权所有 © 2025 Embodied AI & Embodied AI Labs",
       "allRightsReserved": "保留所有权利"
     },
     "actions": {
@@ -70,7 +70,7 @@
   "hero": {
     "badge": "⚡ 专为 Vibe Coding 打造的首款入门套件",
     "title": "通过 Vibe Coding 将您的 AI SaaS 产品投入生产",
-    "description": "不懂编程？没问题。Sistine 加上 AI 编程助手，让您的 SaaS 创意在数小时内上线。您只需描述您的想法，即可交付用户真正喜爱的产品。",
+    "description": "不懂编程？没问题。Embodied AI 加上 AI 编程助手，让您的 SaaS 创意在数小时内上线。您只需描述您的想法，即可交付用户真正喜爱的产品。",
     "cta": {
       "primary": "查看文档",
       "secondary": "获取代码"
@@ -78,7 +78,7 @@
     "modal": {
       "eyebrow": "源码获取",
       "title": "请在课程社区获取源码",
-      "description": "Sistine Starter 的完整源码、更新说明和配套资料都放在课程社区里统一发放。",
+      "description": "Embodied AI Starter 的完整源码、更新说明和配套资料都放在课程社区里统一发放。",
       "instruction": "如果你已经加入课程，点击下方链接即可在新窗口打开课程社区，获取代码与相关资料。",
       "linkLabel": "前往课程社区",
       "linkHint": "课程社区：https://scys.com/deepsea/2001/course",
@@ -87,7 +87,7 @@
   },
   "features": {
     "title": "Vibe Coding 成功所需的一切功能",
-    "subtitle": "告别在样板代码上浪费时间。专注于描述您的独特功能，Sistine 会为您处理好底层基础。借助 AI 加速产品交付。",
+    "subtitle": "告别在样板代码上浪费时间。专注于描述您的独特功能，Embodied AI 会为您处理好底层基础。借助 AI 加速产品交付。",
     "items": {
       "aiOptimized": {
         "title": "为 AI 辅助开发而生",
@@ -185,11 +185,11 @@
   },
   "testimonials": {
     "title": "来自 Vibe Coders 的成功故事",
-    "subtitle": "真实开发者与非技术背景创始人分享他们使用 Sistine 和 Vibe Coding 构建 AI SaaS 产品的经验。",
+    "subtitle": "真实开发者与非技术背景创始人分享他们使用 Embodied AI 和 Vibe Coding 构建 AI SaaS 产品的经验。",
     "items": [
       {
         "name": "Alex Chen",
-        "quote": "我不是开发者，我是营销人员。但我使用 Sistine + Cursor 在 3 天内发布了我的 AI SaaS。现在每月收入 5000 美元。",
+        "quote": "我不是开发者，我是营销人员。但我使用 Embodied AI + Cursor 在 3 天内发布了我的 AI SaaS。现在每月收入 5000 美元。",
         "designation": "营销经理转型创始人"
       },
       {
@@ -199,17 +199,17 @@
       },
       {
         "name": "Alice Johnson",
-        "quote": "从想法到每月 1 万美元收入只用了 2 个月。全靠感觉，无需编码。Sistine 让我能与有资金支持的创业公司竞争。",
+        "quote": "从想法到每月 1 万美元收入只用了 2 个月。全靠感觉，无需编码。Embodied AI 让我能与有资金支持的创业公司竞争。",
         "designation": "连续创业者"
       },
       {
         "name": "Bob Smith",
-        "quote": "仅在本季度就构建并发布了 3 个不同的 AI SaaS 产品。使用 Sistine 进行 Vibe Coding 是我的秘密武器。",
+        "quote": "仅在本季度就构建并发布了 3 个不同的 AI SaaS 产品。使用 Embodied AI 进行 Vibe Coding 是我的秘密武器。",
         "designation": "独立黑客"
       },
       {
         "name": "Cathy Lee",
-        "quote": "我用普通英语向 Claude Code 描述功能。Sistine 处理其他一切。发布从未如此快速。",
+        "quote": "我用普通英语向 Claude Code 描述功能。Embodied AI 处理其他一切。发布从未如此快速。",
         "designation": "产品经理"
       },
       {
@@ -304,7 +304,7 @@
   },
   "cta": {
     "title": "准备好交付您的 AI SaaS 产品了吗？",
-    "description": "加入数百名开发者的行列，他们已经通过 Sistine 和 Vibe Coding 成功发布了自己的 SaaS 产品。",
+    "description": "加入数百名开发者的行列，他们已经通过 Embodied AI 和 Vibe Coding 成功发布了自己的 SaaS 产品。",
     "button": "获取代码"
   },
   "auth": {
@@ -391,7 +391,7 @@
   },
   "demo": {
     "badge": "先试后买",
-    "title": "体验 Sistine AI",
+    "title": "体验 Embodied AI",
     "description": "无需注册即可测试我们强大的 AI 功能。获得 3 次免费试用机会，探索我们的能力。",
     "limitReached": "您已达到演示限制。立即注册以继续使用完整功能的 AI 工具！",
     "signUpNow": "立即注册",
@@ -812,7 +812,7 @@
     "title": "仪表盘",
     "welcome": "欢迎回来",
     "welcomeBonus": {
-      "title": "🎉 欢迎加入 Sistine!",
+      "title": "🎉 欢迎加入 Embodied AI!",
       "message": "恭喜您成功注册！我们已为您的账户赠送 300 积分新人礼包。",
       "description": "这些积分可用于体验我们的 AI 对话、图像生成、视频生成等功能。",
       "ctaButton": "立即体验",
@@ -1006,8 +1006,8 @@
     "subtitle": "我们很乐意倾听您的声音。给我们发送消息，我们会尽快回复。",
     "description": "请联系我们，我们会以光速回复您。",
     "testimonial": {
-      "title": "Sistine AI 被数千名用户使用",
-      "description": "在众多 AI 应用中，Sistine AI 以其顶级的 AI 能力脱颖而出。"
+      "title": "Embodied AI 被数千名用户使用",
+      "description": "在众多 AI 应用中，Embodied AI 以其顶级的 AI 能力脱颖而出。"
     },
     "form": {
       "nameLabel": "姓名",

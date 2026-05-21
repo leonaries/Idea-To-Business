@@ -67,7 +67,7 @@ vi.mock("@/lib/auth-client", () => ({
     data: {
       user: {
         id: "user_123",
-        name: "Sistine Builder",
+        name: "Embodied AI Builder",
         email: "builder@example.com",
         emailVerified: true,
       },
@@ -120,7 +120,7 @@ describe("SettingsPage", () => {
       json: async () => ({
         user: {
           id: "user_123",
-          name: "Sistine Builder",
+          name: "Embodied AI Builder",
           email: "builder@example.com",
           emailVerified: true,
           credits: 420,
@@ -143,8 +143,8 @@ describe("SettingsPage", () => {
     render(<SettingsPage />);
 
     expect(screen.getByRole("heading", { name: "Settings" })).toBeInTheDocument();
-    expect(await screen.findByDisplayValue("Sistine Builder")).toBeInTheDocument();
-    expect(screen.getByDisplayValue("Sistine Builder")).toBeInTheDocument();
+    expect(await screen.findByDisplayValue("Embodied AI Builder")).toBeInTheDocument();
+    expect(screen.getByDisplayValue("Embodied AI Builder")).toBeInTheDocument();
     expect(screen.getByText("420")).toBeInTheDocument();
     expect(screen.getByText("Starter Monthly")).toBeInTheDocument();
     expect(screen.getByRole("button", { name: "Manage credits" })).toBeInTheDocument();
@@ -169,7 +169,7 @@ describe("SettingsPage", () => {
     render(<SettingsPage />);
 
     const input = await screen.findByLabelText("Display name");
-    await screen.findByDisplayValue("Sistine Builder");
+    await screen.findByDisplayValue("Embodied AI Builder");
     fireEvent.change(input, {
       target: {
         value: "  Updated    Builder  ",

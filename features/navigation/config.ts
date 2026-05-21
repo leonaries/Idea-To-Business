@@ -35,11 +35,6 @@ export const marketingNavigationKeys: NavigationKeyItem[] = [
     key: "inquiry",
     href: "/inquiry",
   },
-  {
-    key: "docs",
-    href: "/docs",
-    target: "_blank",
-  },
 ];
 
 export const appNavigationKeys: NavigationKeyItem[] = [

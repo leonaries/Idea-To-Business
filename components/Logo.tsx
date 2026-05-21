@@ -53,7 +53,7 @@ export const Logo = () => {
           opacity="0.6"
         />
       </svg>
-      <span className="font-medium text-foreground">Sistine AI</span>
+      <span className="font-medium text-foreground">Embodied AI</span>
     </Link>
   );
 };
